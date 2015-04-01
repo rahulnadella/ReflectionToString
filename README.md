@@ -21,11 +21,11 @@ Usage
 ------------------------------
 To use the ReflectionToString project the MutableObject.java, PropertiesCache.java, and mutable.properties must be imported into your project.  
 
-  MutableObject.java -> This Java object is the main class of the project. You must extend this class to override                            your toString method to use this desired implementation.
+>*MutableObject.java* -> This Java object is the main class of the project. You must extend this class to override your toString method to use this desired implementation.
 
-  PropertiesCache.java -> This class is an implementation of Properties in Java. It is designed using                                          Initialization-on-demand holder idiom.
+>*PropertiesCache.java* -> This class is an implementation of Properties in Java. It is designed using Initialization-on-demand holder idiom.
 
-  mutable.properties -> This properties file contains the recursive property which is defaulted to 'true'. 
+>*mutable.properties* -> This properties file contains the recursive property which is defaulted to 'true'. 
 
 License
 ------------------------------
