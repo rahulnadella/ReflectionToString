@@ -12,3 +12,8 @@ The ReflectionToString implementation uses reflection to inspect both field name
 >Version 1.0 -> Design and development of Reflection based toString
 #####Build
 >Current Build (1.0) -> Java SDK 1.7 and JUnit 4
+
+License
+------------------------------
+
+*MIT License* --> A short, permissive software license. Basically, you can do whatever you want as long as you include the original copyright and license notice in any copy of the software/source.  There are many variations of this license in use.
