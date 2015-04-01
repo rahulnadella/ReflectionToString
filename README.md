@@ -19,7 +19,7 @@ The ReflectionToString implementation is contained within a MutableObject class.
 
 Usage
 ------------------------------
-To use the ReflectionToString project the MutableObject.java, PropertiesCache.java, and mutable.properties must be imported into your project.  
+To use the ReflectionToString copy src folder into your project. The src package contains the following classes: MutableObject.java, PropertiesCache.java, and mutable.properties which must be imported into your project.  
 
 >*MutableObject.java* -> This Java object is the main class of the project. You must extend this class to override your toString method to use this desired implementation.
 
