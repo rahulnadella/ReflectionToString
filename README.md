@@ -2,7 +2,7 @@
 
 This ReflectionToString project provides a Reflection based API to recursively print out the toString of a specific Class.
 
-Please, be aware of performance issues of reflective methods. Thus, if the performance of your toString implementation is important, I recommend you to ignore this method and make your own implementation. However, if the performance doesn’t matter you can benefit from this method.
+Please, be aware of **performance issues** of reflective methods. Thus, if the performance of your toString implementation is important, I recommend you to ignore this method and make your own implementation. However, if the performance doesn’t matter you can benefit from this method.
 
 Overview
 ------------------------------
