@@ -19,7 +19,7 @@ The ReflectionToString implementation is contained within a MutableObject class.
 
 Usage
 ------------------------------
-The user must import the following files from the src package into their project ().
+The user must import the following files from the src package into their project -> MutableObject.jar. Any class that may want to use this implementation must extend the MutableObject class (which will override your implementation).
 
 ####Source
 To use the ReflectionToString copy src folder into your project. The src package contains the following classes: MutableObject.java, PropertiesCache.java, and mutable.properties which must be imported into your project.  
@@ -31,7 +31,9 @@ To use the ReflectionToString copy src folder into your project. The src package
 >*mutable.properties* -> This properties file contains the recursive property which is defaulted to 'true'. 
 
 ####Test
-The test package consist of Plain Old Java Objects (POJO) that construct a model of how to use the Reflection based toString. The test class can com.test.mutableObject package and is called ObjectModelTest.java. In the ObjectModelTest consists of 2 test cases that using the toString to compare the various test cases that a user may encounter (recursive and non-recursive).
+The test package consist of Plain Old Java Objects (POJO) that construct a model of how to use the Reflection based toString. The test class can com.test.mutableObject package and is called ObjectModelTest.java. 
+
+>*ObjectModelTest.java* -> In the ObjectModelTest consists of 2 test cases that using the toString to compare the various test cases that a user may encounter (recursive and non-recursive). The user can use theys to see the suggested output of the MutableObject.toString method.
 
 License
 ------------------------------
