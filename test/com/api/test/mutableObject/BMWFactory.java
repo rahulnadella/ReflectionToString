@@ -23,10 +23,10 @@
  */
 package com.api.test.mutableObject;
 
-
 /**
- * The {@class BMWFactory} implements a Plain Old Java Object (POJO) for holding
- * the Set of Vehicle objects for testing purposes.
+ * The {@class BMWFactory} implements a specific {@link Factory} that produces a
+ * specific {@link Vehicle} of BMW make. This class will hold member fields and
+ * methods associated to production of a BMW.
  * 
  * @version 1.0
  */
