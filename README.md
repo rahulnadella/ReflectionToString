@@ -1,3 +1,5 @@
+# [![Build Status](https://travis-ci.org/rahulnadella/ReflectionToString.svg?branch=master)](https://travis-ci.org/rahulnadella/ReflectionToString)
+
 # ReflectionToString
 
 This ReflectionToString project provides a Reflection based API to recursively print out the toString of a specific Class.
