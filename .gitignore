@@ -1,0 +1,6 @@
+# Ignored Folder(s) and file(s)
+.classpath
+.gradle/
+.project
+.settings/
+bin/
